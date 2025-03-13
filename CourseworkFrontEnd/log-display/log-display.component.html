@@ -1,0 +1,24 @@
+<div class="log-display">
+    <h2>Log Display</h2>
+
+    <!-- Table to display the logs -->
+    <table>
+        <thead>
+        <tr>
+            <!-- Table headers for Time and Message columns -->
+            <th>Date & Time</th>
+            <th>Message</th>
+        </tr>
+        </thead>
+        <tbody>
+        <!-- Dynamically generates table rows for each log entry-->
+        <tr *ngFor="let log of logs">
+            <td>{{ log.dateTime }}</td>
+            <td>{{ log.message }}</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Button to clear all logs -->
+    <button (click)="clearLogs()">Clear Logs</button>
+</div>
