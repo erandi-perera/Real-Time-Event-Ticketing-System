@@ -3,17 +3,17 @@ The Real-Time Event Ticketing System is a web-based platform designed to streaml
 
 ## Features
 
-✔ **Instant Ticket Transactions** – Users can purchase tickets in real time with immediate updates on availability.
+- **Instant Ticket Transactions** – Users can purchase tickets in real time with immediate updates on availability.
 
-✔ **Multi-threaded Processing** – Efficiently handles concurrent ticket purchases and sales to prevent overselling.
+- **Multi-threaded Processing** – Efficiently handles concurrent ticket purchases and sales to prevent overselling.
 
-✔ **Concurrency Control** – Implements synchronization techniques to maintain data integrity and avoid race conditions.
+- **Concurrency Control** – Implements synchronization techniques to maintain data integrity and avoid race conditions.
 
-✔ **Robust Backend** – Spring Boot-powered backend ensures scalable and efficient request handling. 
+- **Robust Backend** – Spring Boot-powered backend ensures scalable and efficient request handling. 
 
-✔ **Dynamic User Interface** – A modern and interactive Angular frontend for event browsing, ticket purchasing, and status tracking.
+- **Dynamic User Interface** – A modern and interactive Angular frontend for event browsing, ticket purchasing, and status tracking.
 
-✔ **Command-Line Interface (CLI) Support** – Offers an additional CLI for administrators to manage events and transactions.
+- **Command-Line Interface (CLI) Support** – Offers an additional CLI for administrators to manage events and transactions.
 
 ## Tech Stack
 
